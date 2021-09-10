@@ -340,8 +340,7 @@ document.addEventListener("DOMContentLoaded", function(){
   timeline.lineDrawMousemove();
   timeline.lineDrawMouseup();
 
-  timeline.addEvent("test1", new Date('December 17, 1995'));
-  timeline.addEvent("test2", new Date('December 17, 1996'));
-  timeline.addEvent("test3", new Date('December 17, 1995'));
-  timeline.addEvent("test4", new Date('December 17, 1997'));
+  timeline.addEvent("Founding of Netscape", new Date('April 4, 1994'));
+  timeline.addEvent("Brendan Eich is born", new Date('July 4, 1961'));
+  timeline.addEvent("Netscape Navigator version 2.0 releases with JavaScript", new Date('September 18, 1995'));
 });
