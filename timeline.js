@@ -58,6 +58,7 @@ class Timeline {
     this.drawLine = this.drawLine.bind(this);
     this.findIntersection = this.findIntersection.bind(this);
     this.updateEventCausality = this.updateEventCausality.bind(this);
+    this.drawCausalityArrow = this.drawCausalityArrow.bind(this);
 
     //selection state
     this.clicked = null;
